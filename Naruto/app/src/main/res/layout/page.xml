@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.siddharthnarayan.naruto.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:src="@drawable/page2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FF0000">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="previous"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#0000FF"
+            android:background="#000000"
+            android:layout_margin="2dp"
+            android:onClick="previousPage"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="#00FF00"
+            android:background="#000000"
+            android:layout_margin="2dp"
+            android:onClick="goToHome"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#0000FF"
+            android:background="#000000"
+            android:layout_margin="2dp"
+            android:onClick="nextPagess"/>
+    </LinearLayout>
+</LinearLayout>
