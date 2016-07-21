@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="av_colors">
+        <item>@color/av_color1</item>
+        <item>@color/av_color2</item>
+        <item>@color/av_color3</item>
+        <item>@color/av_color4</item>
+    </string-array>
+    <color name="av_color1">#f7b09e</color>
+    <color name="av_color2">#f0979b</color>
+    <color name="av_color3">#e36a97</color>
+    <color name="av_color4">#bc428b</color>
+    <color name="av_color_bg">#8f367c</color>
+    <declare-styleable name="GLAudioVisualizationView"><attr format="integer" name="av_waves_count"/><attr format="reference" name="av_waves_colors"/><attr format="dimension" name="av_wave_height"/><attr format="dimension" name="av_footer_height"/><attr format="dimension" name="av_bubble_size"/><attr format="boolean" name="av_randomize_bubble_size"/><attr format="integer" name="av_layers_count"/><attr format="color|reference" name="av_background_color"/></declare-styleable>
+    <string name="av_app_name">Audio Visualization</string>
+</resources>

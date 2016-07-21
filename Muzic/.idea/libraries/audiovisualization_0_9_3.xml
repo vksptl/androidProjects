@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="audiovisualization-0.9.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.cleveroad/audiovisualization/0.9.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.cleveroad/audiovisualization/0.9.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cleveroad/audiovisualization/0.9.3/f215b8849aea4a116e9ce307363b53cd6331f007/audiovisualization-0.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

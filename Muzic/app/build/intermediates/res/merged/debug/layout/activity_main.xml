@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:id="@+id/visualiser_fragment"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:id="@+id/buttonLayoutTop">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#00009688"
+            android:id="@+id/backButton"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#00009688"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/like_blank"
+            android:layout_weight="1"
+            android:background="#00009688"
+            android:padding="4dp"
+            android:id="@+id/favouriteButton"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00009688"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/songName"
+            android:text="ABC"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="4dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/artistName"
+            android:text="XYZ"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_below="@id/songName"
+            android:textColor="#FFFFFF"/>
+
+
+
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/artistName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:0"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/seekBar"
+            android:id="@+id/currentTime"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:05"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/seekBar"
+            android:id="@+id/endTime"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/currentTime"
+            android:id="@+id/buttonLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/previous"
+                android:layout_weight="1"
+                android:background="#00009688"
+                android:padding="3dp"
+                android:id="@+id/previousButton"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:layout_weight="1"
+                android:background="#00009688"
+                android:id="@+id/playButton"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/next"
+                android:layout_weight="1"
+                android:background="#00009688"
+                android:padding="3dp"
+                android:id="@+id/nextButton"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
