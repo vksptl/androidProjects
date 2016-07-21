@@ -49,7 +49,9 @@ public class AudioVisualizationFragment extends Fragment {
             footer=R.dimen.footer;
         }
 
-        return new GLAudioVisualizationView.Builder(getContext())
+        int ar[]={R.array.av_colors,R.array.av_colorsF,R.array.av_colorsL,R.array.av_colorsW,R.array.av_colorsS};
+
+        GLAudioVisualizationView view = new GLAudioVisualizationView.Builder(getContext())
                 .setBubbleSize(R.dimen.bubble)
                 .setRandomizeBubbleSize(true)
                 .setWaveHeight(wave)
@@ -57,9 +59,11 @@ public class AudioVisualizationFragment extends Fragment {
                 .setWavesCount(7)
                 .setLayersCount(4)
                 .setBackgroundColorRes(R.color.av_color_bg)
-                .setLayerColors(R.array.av_colors)
+                .setLayerColors(ar[MainActivity.playing%5])
                 .setBubblesPerLayer(16)
                 .build();
+
+        return view;
     }
 
     @Override

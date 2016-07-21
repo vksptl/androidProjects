@@ -28,4 +28,49 @@
     <color name="av_color4">#004D40</color>
     <color name="av_color_bg">#000000</color>
 
+    <array name="av_colorsL">
+        <item>@color/av_color12</item>
+        <item>@color/av_color11</item>
+        <item>@color/av_color10</item>
+        <item>@color/av_color9</item>
+    </array>
+    <color name="av_color9">#000000</color>
+    <color name="av_color10">#EA80FC</color>
+    <color name="av_color11">#D500F9</color>
+    <color name="av_color12">#6A1B94</color>
+
+    <array name="av_colorsF">
+        <item>@color/av_color8</item>
+        <item>@color/av_color7</item>
+        <item>@color/av_color6</item>
+        <item>@color/av_color5</item>
+    </array>
+    <color name="av_color5">#000000</color>
+    <color name="av_color6">#B71C1C</color>
+    <color name="av_color7">#FFA000</color>
+    <color name="av_color8">#FFC107</color>
+
+    <array name="av_colorsW">
+        <item>@color/av_color16</item>
+        <item>@color/av_color15</item>
+        <item>@color/av_color14</item>
+        <item>@color/av_color13</item>
+    </array>
+    <color name="av_color13">#000000</color>
+    <color name="av_color14">#81D4FA</color>
+    <color name="av_color15">#00BCD4</color>
+    <color name="av_color16">#01579B</color>
+
+
+    <array name="av_colorsS">
+        <item>@color/av_color20</item>
+        <item>@color/av_color18</item>
+        <item>@color/av_color19</item>
+        <item>@color/av_color17</item>
+    </array>
+    <color name="av_color17">#000000</color>
+    <color name="av_color18">#ECEFF1</color>
+    <color name="av_color19">#B0BEC5</color>
+    <color name="av_color20">#455A64</color>
+
 </resources>
